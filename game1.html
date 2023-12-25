@@ -1,0 +1,84 @@
+<html>
+<body style="background-color: #cc9b60; text-align: center;">
+    <div id="background">
+    <img src="dorbussolutions.png" width="300">
+
+    <p style="font-size: 30px">Hello ! I am doDOBRUS! Back eHEre to SAY:<br>that <b>CIRHSTIASMS MERRIMENT</b> is ion i3t's WAY!<br>LOTS of CLUESt i Hav prepared for you .. <br>To FI X DECREPIT BUsiness ( with Prize 's TOO!)<br>i NEEd tyou to FInd, an PASSW0RDof minen.<br>it is Veyr USEful to me aLL o fthe6 time!!<br>my FISth clue is in a <i>vehicle</i> yo u can see...,<br>tbhe ONe with [License Plate Number] conta1ning <b>B</b>.</p>
+    
+    <br><br>
+
+    <input type="text" id="checker" style="all:unset; font-family: Gabarito; background-color: #FFFFFF88; border-radius: 4px; font-size: 20px" placeholder="ENTER CODE HERE"><br><br>
+    <p class="button" onclick="checkValue()">SUBMIT</p>
+
+    <br><br>
+    </div>
+</body>
+<script>
+    function checkValue() {
+        if(checker.value == "scrub") window.location = "game2";
+        else alert("WRONG!!!!");
+    }
+</script>  
+<style>
+
+#background {
+    position: relative;
+    z-index: 1;
+}
+
+#background:before {
+    content: "";
+    background-image: url('https://www.pngall.com/wp-content/uploads/5/Merry-Christmas-Text-Design-Transparent-180x180.png');
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+body {
+    font-family: Gabarito;
+}
+
+@font-face {
+    font-family: Garabito;
+    src: url(font/Gabarito-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Garabito;
+    src: url(font/Gabarito-Bold.ttf);
+    font-weight: 700;
+}
+
+p {
+    margin: 0;
+}
+
+.button {
+    all: unset;
+    border: none;
+    text-align: center;
+    background-color: rgb(218, 192, 132);
+    font-size: 18px;
+    margin: 20px;
+    padding: 10px 24px;
+    border-radius: 4px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    box-shadow: 4px 4px rgb(148, 120, 117);
+}
+
+@media (hover: hover) {
+    .button:hover {
+        background-color: rgb(238, 237, 204);
+        box-shadow: 8px 8px #b39992;
+        rotate: -2deg;
+        color: #000;
+    }
+}
+</style>
+</html>
