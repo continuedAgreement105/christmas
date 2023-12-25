@@ -1,0 +1,83 @@
+<html>
+<body style="background-color: rgb(255, 0, 0); text-align: center;">
+    <div id="background">
+    <img src="dorbussolutions.png" width="300">
+
+    <p style="font-size: 30px">HOORAY! You Diod it! You fufilled MY role,<br>So now I can go $Out and steal all the SOUL .<br>You';re help was INVALUABLE during Christmas ;time .. <br>and tHANK ^you for puutting up with all my RHYMe.<br>Because of you6re help, I have left you a GIFT,<br>i hope it causes your @spirit to <sup>lift</sup>.<br>Dorbu5 thank 's you for !^all the Christmas time ,m<br>merry chris@#^tmas to all ^>and to all a good mime.</p>
+    
+    <p style="font-size: 50px; font-weight: bold" id="remaining">GIFTS WILL BE DELIVERED PROMPTLY TO COMPUTER AT 12:00 PACIFIC TIME</p>
+
+    <br><br>
+    </div>
+</body>
+<script>
+    var clicks = 8;
+    function counter() {
+        clicks -= 1;
+        document.getElementById("remaining").innerText = clicks;
+        if(clicks == 0) window.location = "game6";
+    }
+</script>  
+<style>
+
+#background {
+    position: relative;
+    z-index: 1;
+}
+
+#background:before {
+    content: "";
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9e9a11ca-5449-46a4-8bd7-5b44cf3f3526/d5j4m7c-8fe02fb1-7875-4064-a035-5a048e51a79b.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzllOWExMWNhLTU0NDktNDZhNC04YmQ3LTViNDRjZjNmMzUyNlwvZDVqNG03Yy04ZmUwMmZiMS03ODc1LTQwNjQtYTAzNS01YTA0OGU1MWE3OWIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.j_MIxZycFn5suetl5TQZOtd-y1vOTCIIlNw1ZycYhzQ');
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+body {
+    font-family: Gabarito;
+}
+
+@font-face {
+    font-family: Garabito;
+    src: url(font/Gabarito-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Garabito;
+    src: url(font/Gabarito-Bold.ttf);
+    font-weight: 700;
+}
+
+p {
+    margin: 0;
+}
+
+.button {
+    all: unset;
+    border: none;
+    text-align: center;
+    background-color: rgb(218, 192, 132);
+    font-size: 18px;
+    margin: 20px;
+    padding: 10px 24px;
+    border-radius: 4px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    box-shadow: 4px 4px rgb(148, 120, 117);
+}
+
+@media (hover: hover) {
+    .button:hover {
+        background-color: rgb(238, 237, 204);
+        box-shadow: 8px 8px #b39992;
+        rotate: -2deg;
+        color: #000;
+    }
+}
+</style>
+</html>
